@@ -11,7 +11,7 @@ It will chase your vehicle depending of it's speed, and can be controlled by a j
 
 - First add a "Spatial" node as a child of your car (it will act as a pivot)
 - Next add a "Camera" node as a child of your pivot and tweak the **camera** to a "default position" (usually behind and above the car, and pointing a bit down)
-- Then attach the script to the pivot.
+- Then attach the script "camera_pivot.gd" to the Spatial node.
 
 Here is what it should looks like :
 
